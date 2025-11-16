@@ -1,0 +1,17 @@
+name: ilenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - rdkit
+  - numpy
+  - pandas
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+      - torch
+      - torchvision
